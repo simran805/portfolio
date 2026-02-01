@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simran | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="glass">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="theme-toggle">🌙</button>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Simran Singh</h1>
+          <h2 id="typing-text"></h2>
+          <p>
+            Passionate Frontend Developer focused on building modern, responsive
+            and user-friendly web applications.
+          </p>
+
+          <a href="#contact" class="btn">Hire Me</a>
+        </div>
+
+        <div class="hero-image">
+          <img src="image/Profile-photo.jpeg" alt="Profile-photo" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about reveal">
+      <h2>About Me</h2>
+
+      <p>
+        I am a motivated and detail-oriented Frontend Developer with hands-on
+        experience in HTML, CSS, JavaScript and React.js. I enjoy transforming
+        ideas into real-world web applications and continuously improving my
+        problem-solving and UI design skills.
+      </p>
+
+      <p>
+        I have worked on multiple projects including task management systems,
+        currency conversion applications, and a full-stack school admin panel. I
+        am eager to learn new technologies and contribute to impactful projects.
+      </p>
+    </section>
+
+    <section id="projects" class="projects reveal">
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>To-Do App</h3>
+          <p>
+            To-Do List Application is a task management web app built using
+            HTML, CSS, and JavaScript. It allows users to add, update, and
+            delete tasks with real-time UI updates. The application uses browser
+            local storage to persist data, ensuring tasks remain saved even
+            after page refresh. The project focuses on clean UI, smooth user
+            interaction, and strengthening core JavaScript CRUD logic.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Currency Converter</h3>
+          <p>
+            The Currency Converter App is a responsive web application developed
+            using HTML, CSS, and JavaScript. The project demonstrates
+            asynchronous JavaScript handling and cross-browser compatible UI
+            design.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>School Admin Panel</h3>
+          <p>
+            The School Admin Panel is a full-stack web application developed
+            using React.js, CoreUI, Node.js, and MongoDB. It provides an
+            interactive admin dashboard for managing students, teachers, and
+            academic records. The system includes authentication, role-based
+            access control, RESTful APIs, and optimized MongoDB schemas. CoreUI
+            components were customized to build a responsive, scalable, and
+            enterprise-level admin interface.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills reveal">
+      <h2>My Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card">HTML5</div>
+        <div class="skill-card">CSS3</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">React.js</div>
+        <div class="skill-card">Node.js</div>
+        <div class="skill-card">MongoDB</div>
+        <div class="skill-card">Git & GitHub</div>
+        <div class="skill-card">Tailwind CSS</div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <h2>Get In Touch</h2>
+      <p>Feel free to contact me for projects or opportunities</p>
+
+      <form
+        action="https://formsubmit.co/simransingh95439@gmail.com"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message 🚀</button>
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
